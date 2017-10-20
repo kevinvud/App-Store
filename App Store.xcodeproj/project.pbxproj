@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D136161E1F98EA9D00FDC060 /* CatogoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D136161D1F98EA9D00FDC060 /* CatogoryCell.swift */; };
 		D18D1ED61F98DE3F00107F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D1ED51F98DE3F00107F54 /* AppDelegate.swift */; };
 		D18D1ED81F98DE3F00107F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D1ED71F98DE3F00107F54 /* ViewController.swift */; };
 		D18D1EDB1F98DE3F00107F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18D1ED91F98DE3F00107F54 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D136161D1F98EA9D00FDC060 /* CatogoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatogoryCell.swift; sourceTree = "<group>"; };
 		D18D1ED21F98DE3F00107F54 /* App Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18D1ED51F98DE3F00107F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D18D1ED71F98DE3F00107F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				D18D1ED51F98DE3F00107F54 /* AppDelegate.swift */,
 				D18D1ED71F98DE3F00107F54 /* ViewController.swift */,
+				D136161D1F98EA9D00FDC060 /* CatogoryCell.swift */,
 				D18D1ED91F98DE3F00107F54 /* Main.storyboard */,
 				D18D1EDC1F98DE3F00107F54 /* Assets.xcassets */,
 				D18D1EDE1F98DE3F00107F54 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				D18D1ED81F98DE3F00107F54 /* ViewController.swift in Sources */,
 				D18D1ED61F98DE3F00107F54 /* AppDelegate.swift in Sources */,
+				D136161E1F98EA9D00FDC060 /* CatogoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

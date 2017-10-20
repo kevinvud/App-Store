@@ -8,18 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class FeaturedAppsViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+    
+    let cellId = "cellId"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        collectionView?.backgroundColor = UIColor.white
+        collectionView?.register(CategoryCell.self, forCellWithReuseIdentifier: cellId)
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        return collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CategoryCell
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
     }
-
-
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        if indexPath.item == 2 {
+//            return CGSize(width: view.frame.width, height: 160)
+//        }
+        
+        return CGSize(width: view.frame.width, height: 230)
+    }
+    
 }
 
